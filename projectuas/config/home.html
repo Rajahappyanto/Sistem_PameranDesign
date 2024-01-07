@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raja Design.</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #;
+        }
+
+        .comentar {
+            max-width: 100%;
+            margin: auto;
+            background-color: #3498db;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            color: #fff;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        form {
+            max-width: 600px;
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+
+</head>
+<body>
+    <nav>
+        <div class="wrapper" >
+            <div class="logo"><a href=''>Raja Design</a></div>
+            <div class="menu" >
+                <ul >
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">About us</a></li>
+                    <li><a href="#tutors">Our Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="../index.html" class="tbl-pink">log out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <section id="home">
+            <video width="640" height="360" controls style="margin-right: 30px; border: 10px;">
+              <source src="../img/tiktok.mp4" type="video/mp4">
+            </video>
+            <div class="kolom">
+                <p class="deskripsi"> House Design Service</p>
+                <h2>Visualisasikan Imaginasi Anda Bersama Kami</h2>
+                <p>Kami adalah tim desainer rumah yang berdedikasi untuk menciptakan ruang hunian yang unik dan fungsional. Dengan fokus pada inovasi dan perhatian terhadap detail, kami mengubah ide-ide Anda menjadi desain rumah yang memukau. Percayakan kepada kami untuk memberikan solusi estetis yang sesuai dengan gaya hidup modern Anda.</p>
+                <a href="../konsultasi/produc.html" class="tbl-biru">Our Product</a>
+            </div>
+
+        </section>
+
+        <!-- untuk courses -->
+        <section id="courses">
+            <div class="kolom">
+                <p class="deskripsi">Apa itu Raja design?</p>
+                <h2>Jasa Design Arsitektur</h2>
+                <p>Studio Raja Design adalah perusahaan desain arsitektur yang terkemuka, mengunggulkan keahlian dalam menciptakan solusi inovatif dan kreatif. Dikenal karena pendekatan yang mendalam terhadap desain, tim profesional mereka berfokus pada penyesuaian dengan lingkungan, menciptakan bangunan yang sejalan dengan alam. Studio ini aktif berkolaborasi dengan klien untuk memahami visi dan kebutuhan, memastikan setiap proyek mencapai harmoni antara estetika dan fungsionalitas.</p>
+                <p><a href="https://wa.me/+6281263203587" class="tbl-biru">Hubungi kami</a></p>
+            </div>
+            <img src="../img/depan.jpg" width="600" height="400" />
+        </section>
+
+        <!-- untuk tutors -->
+        <section id="tutors">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">Our Team</p>
+                    <h2>Architec, Drafter, Estimator</h2>
+                    <p>Tim terbaik, akan menghasilkan hasil dengan kualitas tinggi</p>
+                </div>
+
+                <div class="tutor-list">
+                    <div class="kartu-tutor">
+                        <img src="../img/raja.png"/>
+                        <p>Raja Heppyanto</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="../img/anon.jpg"/>
+                        <p>Anonymous</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="../img/anon.jpg"/>
+                        <p>Anonymous</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="../img/anon.jpg"/>
+                        <p>Anonymous</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+    </div>
+
+    <div class="comentar">
+        <h3>Komentar anda adalah semangat bagi kami</h3>
+
+        <form action="process_comment.php" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" required><br>
+
+            <label for="comment">Komentar:</label>
+            <textarea name="comment" rows="4" required></textarea><br>
+
+            <input type="submit" value="Kirim Komentar">
+        </form>
+
+        <h3>Komentar</h3>
+
+        <!-- Menampilkan komentar yang sudah ada -->
+        <?php
+        // Mengambil dan menampilkan komentar yang sudah ada dari database
+        require 'display_comments.php';
+        ?>
+
+        <!-- Formulir Komentar -->
+    </div>
+
+    <div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>Raja Heppyanto</h3>
+                    <p>Saya Membuat rajadesign dengan tujuan mengembangkan imaginasi dalam bidang arsitektur</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Alamat</h3>
+                    <p>Universitas Pelita bangsa</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>+6281263203589</p>
+                    <p>Kode Pos: 21165</p>
+                    <p>rajadesign80@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Social</h3>
+                    <p><b>Instagram</b>Rajahappyanto</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2024. <b>Rajaheppyanto</b> UPB Tugas.
+        </div>
+    </div>
+    
+</body>
+</html>

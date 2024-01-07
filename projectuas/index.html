@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Indeks</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('img/index.jpg');
+            background-position: center;
+            color: #fff;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            }
+        header .headerin{
+            border-radius: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+
+        /* Gaya tambahan untuk tombol login */
+        .login-button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #2ecc71;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+
+        /* Efek hover pada tombol */
+        button:hover, .login-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="headerin"
+    style="background-color: lightblue;
+    border-radius: 20px;">
+        <h1>Welcom To RajaDesign</h1>
+    </header>
+    
+    <a href="config/login_form.php">
+        <button>Login</button>
+    </a>
+
+
+</body>
+</html>

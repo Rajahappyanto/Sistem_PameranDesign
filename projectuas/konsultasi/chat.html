@@ -1,0 +1,111 @@
+
+<?php
+
+@include 'config.php';
+
+if(isset($_POST['submit'])){
+
+   $name = mysqli_real_escape_string($conn, $_POST['name']);
+   $email = mysqli_real_escape_string($conn, $_POST['email']);
+   $pass = md5($_POST['password']);
+   $cpass = md5($_POST['cpassword']);
+   $user_type = $_POST['user_type'];
+
+   $select = " SELECT * FROM user_form WHERE email = '$email' && password = '$pass' ";
+
+   $result = mysqli_query($conn, $select);
+
+   if(mysqli_num_rows($result) > 0){
+
+      $error[] = 'user already exist!';
+
+   }else{
+
+      if($pass != $cpass){
+         $error[] = 'password not matched!';
+      }else{
+         $insert = "INSERT INTO pembelian_jasa (id_transaksi, nama_pelanggan, jenis_jasa, harga) 
+            VALUES ('$id_transaksi', '$nama_pelanggan', '$jenis_jasa', '$harga')";
+         mysqli_query($conn, $insert);
+         header('location:login_form.php');
+      }
+   }
+
+};
+
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Formulir Pembelian Jasa Design</title>
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <style>
+      body {
+         padding: 20px;
+      }
+
+      .form-container {
+         max-width: 600px;
+         margin: auto;
+      }
+
+      table {
+         border-collapse: collapse;
+         width: 100%;
+         margin-top: 20px;
+      }
+
+      th, td {
+         border: 1px solid #ddd;
+         padding: 8px;
+         text-align: left;
+      }
+
+      th {
+         background-color: #f2f2f2;
+      }
+   </style>
+</head>
+<body>
+
+   <div class="container form-container">
+      <h2 class="mt-4 mb-4">Formulir Pembelian Jasa Design</h2>
+
+      <form action="proses_pembelian.php" method="post">
+         <div class="mb-3">
+            <label for="id_transaksi" class="form-label">ID Transaksi:</label>
+            <input type="text" name="id_transaksi" class="form-control" required>
+         </div>
+
+         <div class="mb-3">
+            <label for="nama_pelanggan" class="form-label">Nama Pelanggan:</label>
+            <input type="text" name="nama_pelanggan" class="form-control" required>
+         </div>
+
+         <div class="mb-3">
+            <label for="jenis_jasa" class="form-label">Jenis Jasa:</label>
+            <input type="text" name="jenis_jasa" class="form-control" required>
+         </div>
+
+         <div class="mb-3">
+            <label for="harga" class="form-label">Harga:</label>
+            <input type="number" name="harga" class="form-control" required>
+         </div>
+
+         <button type="submit" class="btn btn-primary">Simpan Pembelian</button>
+      </form>
+
+     
+   </div>
+
+
+</body>
+</html>
