@@ -1,5 +1,5 @@
-# app-laundry
-Program Laundry berbasis website dibuat untuk memenuhi tugas mata kuliah rekayasa perangkat lunak. 
+# Sistem Pameran/portofolio jasa design
+Program Pameran/portofolio jasa design berbasis website dibuat untuk memenuhi tugas mata kuliah rekayasa perangkat lunak. 
 
 ```
 Nama   : Raja Happyanto
