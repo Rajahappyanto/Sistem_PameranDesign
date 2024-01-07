@@ -8,9 +8,9 @@ Kelas  : TI.22.A2
 ```
 
 # Use Case
-#1. 
+# 1. 
 ![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/usecase1.png)
-2. 
+# 2. 
 ![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/usecase2.png)
 
 
