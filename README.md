@@ -11,7 +11,7 @@ Kelas  : TI.22.A2
 #1. 
 ![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(96).png)
 2. 
-![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(96).png)
+![img]([https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(96).png](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%202024-01-08%20004227.png))
 
 
 # Client
