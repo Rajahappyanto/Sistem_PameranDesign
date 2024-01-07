@@ -7,7 +7,14 @@ NIM    : 312210235
 Kelas  : TI.22.A2
 ```
 
-# PELANGGAN
+# Use Case
+#1. 
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(96).png)
+2. 
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(96).png)
+
+
+# Client
 ## 1. Melakukan halaman depan
 
 ![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(96).png)
