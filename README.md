@@ -8,41 +8,45 @@ Kelas  : TI.22.A2
 ```
 
 # PELANGGAN
-## 1. Melakukan registrasi dan login 
+## 1. Melakukan halaman depan
 
-![F1](foto/F1.png)
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(96).png)
 
-![F2](foto/F2.png)
+## 2. Melakukan Registrasi
 
-## 2. Melakukan pemesanan (booking)
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(97).png)
 
-![F3](foto/F3.png)
+## 3. Melakukan login
 
-## 3. Melihat data transaksi
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(98).png)
 
-![F4](foto/F4.png)
+## 4. Tampilan Home
 
-## 4. Keluar
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(99).png)
 
-![F5](foto/F5.png)
+## 5. Tampilan Home 2
 
-# ADMIN
-## 1. Menginput data pelanggan
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(100).png)
 
-![F6](foto/F6.png)
+## 6. Tampilan Product/jasa dan portofolio
 
-## 2. Mengelola jenis laundry
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(101).png)
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(102).png)
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(103).png)
 
-![F7](foto/F7.png)
+## 7. Detail Produc/jasa
 
-## 3. Mengelola pesanan pelanggan
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(104).png)
 
-![F8](foto/F8.png)
+## 8. harga jasa
 
-## 4. Mengelola Transaksi
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(105).png)
 
-![F9](foto/F9.png)
+## 9. Konsultasi dan pembelian diarahkan ke whatsapp
 
-## 5. Mengelola laporan transaksi
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(106).png)
 
-![F10](foto/F10.png)
+## 10. tinggalkan komentan atas pengalaman client
+
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(107).png)
+
