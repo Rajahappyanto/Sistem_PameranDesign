@@ -53,7 +53,11 @@ Kelas  : TI.22.A2
 
 ![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(106).png)
 
-## 10. tinggalkan komentan atas pengalaman client
+## 10. Melakukan Pembayaran
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(109).png)
+![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(110).png)
+
+## 11. tinggalkan komentan atas pengalaman client
 
 ![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(107).png)
 
