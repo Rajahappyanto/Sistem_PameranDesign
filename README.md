@@ -15,7 +15,7 @@ Kelas  : TI.22.A2
 
 
 # Client
-## 1. Melakukan halaman depan
+## 1. Tampilan halaman depan
 
 ![img](https://github.com/luffy-arc/Sistem_PameranDesign/blob/main/Screenshot%20(96).png)
 
